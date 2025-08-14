@@ -1,1 +1,9 @@
-# Azure-DevOps
+# BUILD
+```
+docker build . -t muna-app
+```
+#RUN
+
+```
+docker run -p 8080:8080 muna-app
+```
